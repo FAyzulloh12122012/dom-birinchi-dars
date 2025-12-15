@@ -1,0 +1,47 @@
+.cointeyner{
+    max-width: 1200px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.title{
+    text-align: center;
+    font-size: 58px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+.form_input{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form_btn{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;    
+    background: white;
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+li{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
