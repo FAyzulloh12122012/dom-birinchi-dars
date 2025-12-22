@@ -153,7 +153,7 @@ konfet(17);
 konfet(20);
 konfet();
 
-function solishtirish(d,f = Number(1,1)){
+function solishtirish(d,f = Number(1,2)){
     const konfet = Number(10);
     console.log(d * konfet + "so'm");
     const shokolad = Number(12);
